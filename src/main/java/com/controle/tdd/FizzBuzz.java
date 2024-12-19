@@ -6,7 +6,7 @@ public class FizzBuzz {
        if(nb%3==0){
            rest ="Fizz";
        }
-       if(nb==5){
+      else  if(nb%5==0){
            rest= "Buzz" ;
        }
        else {
