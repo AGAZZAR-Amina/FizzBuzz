@@ -1,12 +1,18 @@
 package com.controle.tdd;
 
+
+
 public class FizzBuzz {
     public  static String de(int nb){
-
-        if(nb==2){
-            return "2" ;
-        }
-
-        return "1" ;
+       String rest="";
+       if(nb==3){
+           rest ="Fizz";
+       }
+       else {
+           rest = String.valueOf(nb);
+       }
+        return rest ;
     }
+
+
 }
